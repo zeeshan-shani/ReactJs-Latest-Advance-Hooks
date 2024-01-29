@@ -14,7 +14,7 @@ const Hook1 = () => {
     color: dark ? "white" : "black",
   };
   return (
-    <>
+    <div style={themeStyle}>
       <h2>useMemo()</h2>
       <input
         type="number"
@@ -25,7 +25,7 @@ const Hook1 = () => {
         Change Theme
       </button>
       <div style={themeStyle}>{doubleNumber}</div>
-    </>
+    </div>
   );
 };
 
